@@ -1,7 +1,7 @@
 # Quality-Control-for-Banking-using-LDA-and-LDA-Mallet
 Learning and extracting information from a Financial Institution’s rationale
 
-**If you are looking to skim over the project without going into too much detail, you can always access it through [_here_](https://nbviewer.jupyter.org/github/mick-zhang/Quality-Control-for-Banking-using-LDA-and-LDA-Mallet/blob/master/Topic%20Bank%20Github.ipynb).**
+**If you are looking to skim over the project without going into too much detail, you can always access it through [_here_](https://nbviewer.jupyter.org/github/mick-zhang/Quality-Control-for-Banking-using-LDA-and-LDA-Mallet/blob/master/Topic%20Bank%20Github.ipynb?flush_cache=true).**
 
 <img src="Topic%20Modeling.jpg" width="500">
 
