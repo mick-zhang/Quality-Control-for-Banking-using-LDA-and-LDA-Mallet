@@ -176,7 +176,7 @@ trigram_mod = gensim.models.phrases.Phraser(trigram)
 def make_trigram(texts):
     return [trigram_mod[bigram_mod[doc]] for doc in texts]
 
-# Form Bigrams from Gensim.models.phrases
+# Form Trigrams from Gensim.models.phrases
 data_words_trigrams = make_trigram(data_words_nostops)
 
 
@@ -401,7 +401,7 @@ print('\nCoherence Score: ', coherence_ldamallet)
 # 
 #     compute_coherence_values
 #     
-# <u>Note</u> that we trained our model to find topics between the range of 2 to 40 topics at an interval of 6.
+# <u>Note</u> that we trained our model to find topics between the range of 2 to 12 topics at an interval of 1.
 
 # In[21]:
 
@@ -423,7 +423,7 @@ def compute_coherence_values(dictionary, corpus, texts, limit, start=2, step=3):
 # coherence_model_ldamallet = CoherenceModel(model=ldamallet, texts=data_lemmatized, dictionary=id2word, coherence="c_v")
 
 # compute a list of LdaMallets models
-model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=data_lemmatized, start=2, limit=40, step=6)
+model_list, coherence_values = compute_coherence_values(dictionary=id2word, corpus=corpus, texts=data_lemmatized, start=2, limit=12, step=1)
 
 
 # Now that the training is complete, the next step is to visualize the results and the display the list of results.
