@@ -301,7 +301,7 @@ ldamallet = LdaMallet(mallet_path,corpus=corpus,num_topics=9,id2word=id2word) # 
 pprint(ldamallet.show_topics(formatted=False))
 
 
-# After building the LDA Mallet Model using Gensim's Wrapper package, here we see our 7 new topics in the document along with the top 10 keywords and their corresponding weights that makes up each topic.
+# After building the LDA Mallet Model using Gensim's Wrapper package, here we see our 9 new topics in the document along with the top 10 keywords and their corresponding weights that makes up each topic.
 # 
 # <u>Note</u> that output were omitted for privacy protection. However the actual output is a list of the 9 topics, and each topic shows the top 10 keywords and their corresponding weights that makes up the topic.
 
