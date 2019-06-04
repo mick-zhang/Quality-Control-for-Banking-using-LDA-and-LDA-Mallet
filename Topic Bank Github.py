@@ -379,7 +379,7 @@ pprint(optimal_model.print_topics(num_words=10)) # Set num_words parament to sho
 
 # By using our **Optimal LDA Mallet Model** using Gensim's Wrapper package, we displayed the 10 topics in our document along with the top 10 keywords and their corresponding weights that makes up each topic.
 # 
-# <u>Note</u> that output were omitted for privacy protection.. However the actual output is a list of the 10 topics, and each topic shows the top 10 keywords and their corresponding weights that makes up the topic.
+# <u>Note</u> that output were omitted for privacy protection. However the actual output is a list of the 10 topics, and each topic shows the top 10 keywords and their corresponding weights that makes up the topic.
 
 # ## 9.1 Visual the Optimal LDA Mallet Model
 
