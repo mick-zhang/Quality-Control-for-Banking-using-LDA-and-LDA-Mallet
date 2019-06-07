@@ -44,7 +44,7 @@
 # <br>
 # 
 # **Assumption:**
-# - I have taken data from with a sample size of 511, and assuming that this dataset is sufficient to capture the topics in the rationale
+# - We are using data with a sample size of 511, and assuming that this dataset is sufficient to capture the topics in the rationale
 # - We're also assuming that the results in this model is applicable in the same way if we were to train an entire population of the rationale dataset with the exception of few parameter tweaks
 # <br>
 # <br>
